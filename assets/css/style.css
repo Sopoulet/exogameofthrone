@@ -1,0 +1,27 @@
+@import "normalize.css";
+/** 
+* Déclaration de la grille
+**/
+.wrapper {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.column {
+    box-sizing: border-box;
+    float: left;
+    /** Gouttières **/
+    padding-left: .5em;
+    padding-right: .5em;
+}
+.column-1-2 {
+    width: 30%;
+}
+
+.clear {
+    clear: both;
+}
+img{
+	max-width: 100%;
+}
+figure{ margin: 0 0 1.5em;}
