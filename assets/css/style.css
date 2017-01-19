@@ -1,3 +1,9 @@
+@media screen and (max-width: 640px){
+	body{
+		background-color: red;
+	}
+}
+
 @import "normalize.css";
 /** 
 * Déclaration de la grille
