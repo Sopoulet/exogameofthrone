@@ -1,10 +1,17 @@
 @media screen and (max-width: 640px){
 	body{
-		background-color: red;
-	}
+		background-color: #5A5A5A;
+		color:white;
+		}
+	.column-2 { clear: both;}
 }
 
+
 @import "normalize.css";
+
+html{font-family: sans-serif;}
+
+
 /** 
 * Déclaration de la grille
 **/
