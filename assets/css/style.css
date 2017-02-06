@@ -1,15 +1,9 @@
-@media screen and (max-width: 640px){
-	body{
-		background-color: #5A5A5A;
-		color:white;
-		}
-	.column-2 { clear: both;}
-}
+
 
 
 @import "normalize.css";
 
-html{font-family: sans-serif;}
+body{font-family: sans-serif;background-color:indianred;}
 
 
 /** 
@@ -19,6 +13,7 @@ html{font-family: sans-serif;}
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+	
 }
 .column {
     box-sizing: border-box;
@@ -26,6 +21,7 @@ html{font-family: sans-serif;}
     /** Gouttières **/
     padding-left: .5em;
     padding-right: .5em;
+	
 }
 .column-1-2 {
     width: 30%;
@@ -38,3 +34,12 @@ img{
 	max-width: 100%;
 }
 figure{ margin: 0 0 1.5em;}
+
+@media screen and (max-width: 640px){
+	body{
+		background-color: #5A5A5A;
+		color:white;
+		}
+	.column-2 { clear: both;}
+	
+}
