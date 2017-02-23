@@ -21,7 +21,7 @@ figure{ margin: 0 0 1.5em;}
 
 @media only screen and ( min-width: 48em ) {
 	.column-1-2 { width: 50%; }
-    .column:nth-child(2n+1) { clear: left; }
+	.column:nth-child(2n+1) { clear: left; }
 	body{background-color: black;color:white;}
 }
 
